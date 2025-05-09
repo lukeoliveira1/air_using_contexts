@@ -8,7 +8,7 @@ export default function ToolBar() {
     <nav className="flex items-center justify-center gap-4 p-4">
       <p>Tema: {context?.theme}</p>
       <button
-        className="flex items-center justify-center bg-blue-800 text-white font-medium py-2 px-4 rounded-md gap-2 cursor-pointer"
+        className="flex items-center justify-center bg-blue-400 text-white font-medium py-2 px-4 rounded-md gap-2 cursor-pointer"
         onClick={context?.toggleTheme}
       >
         Mudar tema
